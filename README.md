@@ -2,7 +2,7 @@
 
 ## Library Yang Dibutuhkan
 
-```
+```python3
 pip install seaborn
 pip install matplotlib
 pip install pandas
