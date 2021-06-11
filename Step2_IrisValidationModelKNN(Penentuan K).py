@@ -4,7 +4,6 @@ NIM     : 18360018
 Teknik Informatika
 Institut Sains dan Teknologi Nasisonal
 """
-import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.neighbors import KNeighborsClassifier
@@ -17,7 +16,7 @@ fitur = iris.iloc[:, 0:2].values
 label = iris.iloc[:, -1].values
 
 # Splitting the dataset into the Training set and test set
-X_train, X_test, Y_train, Y_test = train_test_split(fitur, label, test_size=1/3, random_state=0)
+X_train, X_test, Y_train, Y_test = train_test_split(fitur, label, test_size=1/3, random_state=42)
 print("Data Training: ")
 print(X_train)
 print("Data Test: ")
