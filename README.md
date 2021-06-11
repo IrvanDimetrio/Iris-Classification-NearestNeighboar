@@ -1,4 +1,4 @@
-# Kasus Iris Klasifikasi Nearest Neighbor
+# Kasus Klasifikasi Iris Dengan K-Nearest Neighbor
 
 ## Library Yang Dibutuhkan
 
